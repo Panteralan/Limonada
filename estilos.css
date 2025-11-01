@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+img {
+  /* No se olviden de agregar esta regla para evitar que las imágenes se escapen de su contenedor */
+  max-width: 100%;
+}
+
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #2b323f;
+}
+
+
+h1 {
+  color: #e9e966;
+  font-size: 44px;
+  line-height: 1.25;
+}
+
+h2 {
+  border-bottom: 1px solid #e9e966;
+}
+
+/* El borde no obedece las 4 esquinas, hay que decir specificamente donde ponerlo */
+
+ol li, ul li {
+  list-style-position: inside;
+}
+
+
+h1, h2, h3, p, ul, ol {
+  margin: 25px 0px;
+}
+
+
+.contenedor {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.limonada {
+  border-radius: 8px;
+}

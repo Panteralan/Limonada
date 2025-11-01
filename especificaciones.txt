@@ -1,0 +1,21 @@
+Color de fondo: #2b323f
+Color de textos: white
+
+-- Tipografía --
+Color de h1: #e9e966
+Tamaño de h1: 44px
+Interlineado de h1: 1.25
+Border h2: 1px #e9e966
+
+-- Contendor --
+Ancho del contenedor: 800px
+Padding horizontal: 16px
+
+-- Img portada --
+Redondeado bordes: 12px
+Margin superior: 14px
+Ancho completo
+
+-- Listas --
+Posicion: inside
+
